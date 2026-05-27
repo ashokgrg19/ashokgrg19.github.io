@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:jonbarron.info)",
+      "Bash(git remote *)",
+      "Bash(git ls-remote *)",
+      "Bash(echo \"exit_code=$?\")",
+      "Bash(git push *)",
+      "Bash(sips -g pixelHeight -g pixelWidth /Users/pritigurung/Documents/jonbarron.github.io/images/ashok.jpg)",
+      "Bash(sips -Z 800 -s formatOptions 80 /Users/pritigurung/Documents/jonbarron.github.io/images/ashok.jpg --out /Users/pritigurung/Documents/jonbarron.github.io/images/ashok.jpg)",
+      "Bash(sips -s format jpeg -s formatOptions 65 /Users/pritigurung/Documents/jonbarron.github.io/images/ashok.jpg --out /Users/pritigurung/Documents/jonbarron.github.io/images/ashok.jpg)",
+      "Bash(sips -g pixelHeight -g pixelWidth \"/Users/pritigurung/Documents/jonbarron.github.io/images/Ashok Gurung_files/profile2.jpg\")",
+      "Bash(sips -Z 800 -s format jpeg -s formatOptions 75 /Users/pritigurung/Documents/jonbarron.github.io/images/profile2.jpg --out /Users/pritigurung/Documents/jonbarron.github.io/images/profile2.jpg)",
+      "Bash(sips -g pixelHeight -g pixelWidth /Users/pritigurung/Documents/jonbarron.github.io/images/profile2.jpg)",
+      "Bash(sips -g pixelHeight -g pixelWidth /Users/pritigurung/Documents/jonbarron.github.io/images/profile3.jpg)",
+      "Bash(python3 -c \"from PIL import Image; print\\('PIL available'\\)\")"
+    ]
+  }
+}
