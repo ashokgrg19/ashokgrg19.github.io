@@ -82,6 +82,7 @@ p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
+  line-height: 1.5;
 }
 
 strong {
@@ -97,6 +98,8 @@ h2 {
 }
 
 .papertitle {
+  display: inline;
+  margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -107,6 +110,33 @@ h2 {
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.profile-text {
+  width: 63%;
+  padding: 2.5%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.profile-photo {
+  width: 37%;
+  max-width: 37%;
+  padding: 2.5%;
+}
+
+.publication-image {
+  width: 20%;
+  padding: 16px;
+  vertical-align: middle;
+}
+
+.publication-details {
+  width: 80%;
+  padding: 8px;
+  vertical-align: middle;
 }
 
 .one {
@@ -161,4 +191,45 @@ span.highlight {
     font-weight: 600;
     letter-spacing: 0.2px;
     white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .profile-row,
+  .publication {
+    display: block;
+  }
+
+  .profile-text,
+  .profile-photo,
+  .publication-image,
+  .publication-details {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .profile-text {
+    padding: 20px 16px 8px;
+    text-align: left;
+  }
+
+  .profile-photo {
+    padding: 8px 25% 20px;
+  }
+
+  .publication-image {
+    padding: 16px 16px 4px;
+    text-align: center;
+  }
+
+  .publication-image img {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+  }
+
+  .publication-details {
+    padding: 4px 16px 20px;
+  }
 }
